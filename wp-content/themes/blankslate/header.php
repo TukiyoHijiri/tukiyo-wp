@@ -5,15 +5,15 @@
 <meta name="viewport" content="width=device-width" />
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/used/js/scroll.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/used/js/game.js"></script>
 
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" />
-<link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/notosansjp.css">
 
 <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>" />
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/used/css/header.css" />
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/used/css/footer.css" />
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/used/css/cont.css" />
+<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/used/css/lab.css" />
 
 <?php wp_head(); ?>
 </head>
