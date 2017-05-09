@@ -1,0 +1,13 @@
+@import "_color.scss";
+
+#footer{
+    width: 100%;
+    color: $purple;
+    font-size: 0.9em;
+    font-weight: 600;
+    background: linear-gradient($frog-green 0%, lighten($frog-green, 10%) 50%,$frog-green 100%);
+}
+#copyright{
+    padding: 1em 0;
+    text-align: center;
+}

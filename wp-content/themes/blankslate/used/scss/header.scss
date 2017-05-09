@@ -1,0 +1,14 @@
+@import "_color.scss";
+
+#header{
+    width: 100%;
+}
+#site-title{
+    font-size: 3em;
+    text-shadow: 1px 1px 5px #000;
+    margin: 1/3em 0px;
+    a{
+        text-decoration: none;
+        color: #333;
+    }
+}
