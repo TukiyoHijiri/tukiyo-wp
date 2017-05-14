@@ -14,11 +14,14 @@
 #sidebar{ width: 100% }
 input#s{ width: 90%; }
 }
+
+/* HTMLタグ */
 html body{
     font-family: 'Noto Sans Japanese',Noto Sans Japanese,sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
+    background-color: $background;
 }
 p{
     text-indent: 1em;
@@ -33,7 +36,8 @@ a:visited{ color: $purple; }
 /* コンテンツ部分 */
 #wrapper{
     width: 100%;
-/*    background-color: lighten($frog-green, 25%);*/
+    max-width: 1024px;
+    margin: auto;
 }
 #container{
     margin: 1em 0;

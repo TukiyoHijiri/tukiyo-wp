@@ -21,11 +21,13 @@
   input#s {
     width: 90%; } }
 
+/* HTMLタグ */
 html body {
   font-family: 'Noto Sans Japanese',Noto Sans Japanese,sans-serif;
   font-style: normal;
   font-weight: 300;
-  font-size: 18px; }
+  font-size: 18px;
+  background-color: #bce662; }
 
 p {
   text-indent: 1em; }
@@ -43,7 +45,8 @@ a:visited {
 /* コンテンツ部分 */
 #wrapper {
   width: 100%;
-  /*    background-color: lighten($frog-green, 25%);*/ }
+  max-width: 1024px;
+  margin: auto; }
 
 #container {
   margin: 1em 0; }
@@ -59,7 +62,7 @@ a:visited {
   font-size: 0.8em; }
 
 #content {
-  background-color: #cfed8e;
+  background-color: #e2f4ba;
   border-radius: 1em; }
 
 #content article {
@@ -90,7 +93,7 @@ a:visited {
 
 /* ここからsidebar */
 #sidebar {
-  background-color: #cfed8e; }
+  background-color: #e2f4ba; }
 
 #sidebar div ul li.widget-container {
   margin-top: 1.5em; }

@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/*
+
+　ドロップダウンメニュー
+
+*/
+.page section ul.dropmenu {
+  width: 718px;
+  margin: 0 auto; }
+
+.page section ul.dropmenu:after {
+  clear: both; }
+
+.page section ul.dropmenu li {
+  position: relative;
+  width: 20%;
+  float: left;
+  text-align: center;
+  margin: 0;
+  list-style-type: none; }
+
+.page section ul.dropmenu li a {
+  display: block;
+  background: #8FC31F;
+  color: #fff;
+  font-size: 1em;
+  padding: 0.5em 0;
+  text-decoration: none; }
+
+.page section ul.dropmenu li ul {
+  position: absolute;
+  z-index: 9999;
+  top: 100%;
+  left: 0%; }
+
+.page section ul.dropmenu li ul li {
+  width: 100%; }
+
+.page section ul.dropmenu li ul li a {
+  padding: 0.5em 0;
+  border-top: 1px solid black;
+  background: #6f9718;
+  text-align: center; }
+
+.page section ul.dropmenu li:hover > a {
+  background: #7fad1c; }
+
+.page section ul.dropmenu li a:hover {
+  background: #7fad1c; }
+
+/*アニメーションなし*/
+#normal li ul {
+  display: none; }
+
+#normal li:hover ul {
+  display: block; }
+
+/*フェードイン*/
+#fade-in li ul {
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s; }
+
+#fade-in li:hover ul {
+  visibility: visible;
+  opacity: 1; }
