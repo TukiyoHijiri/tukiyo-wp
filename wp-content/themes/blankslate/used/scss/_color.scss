@@ -1,6 +1,9 @@
-$frog-green: #8FC31F;
-$purple: #A41FC2;
-$blue: #1F8EC2;
-$bg-color: lighten($frog-green, 40%);
-$background: lighten($frog-green, 20%);
-$nav-border: #000000;
+$frog-green: #8BC213;
+$purple: #C2138B;
+$blue: #138BC2;
+$dark-green: #607438;
+$bg-color: #FFFFFF;
+$background: lighten($frog-green, 0%);
+$nav: $dark-green;
+$footer: $dark-green;
+$nav-border: #fff;

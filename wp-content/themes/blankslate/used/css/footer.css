@@ -1,9 +1,11 @@
 #footer {
   width: 100%;
-  color: #A41FC2;
+  color: #ffffff;
   font-size: 0.9em;
   font-weight: 600;
-  background: linear-gradient(#8FC31F 0%, #a9df36 50%, #8FC31F 100%); }
+  background: #607438; }
+  #footer a {
+    color: #ffffff; }
 
 #copyright {
   padding: 1em 0;

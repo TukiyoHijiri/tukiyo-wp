@@ -2,10 +2,11 @@
 
 #footer{
     width: 100%;
-    color: $purple;
+    color: #ffffff;
     font-size: 0.9em;
     font-weight: 600;
-    background: linear-gradient($frog-green 0%, lighten($frog-green, 10%) 50%,$frog-green 100%);
+    background: $footer;
+    a{color: #ffffff;}
 }
 #copyright{
     padding: 1em 0;

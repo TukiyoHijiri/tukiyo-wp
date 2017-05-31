@@ -27,7 +27,7 @@ html body {
   font-style: normal;
   font-weight: 300;
   font-size: 18px;
-  background-color: #bce662; }
+  background-color: #8bc213; }
 
 p {
   text-indent: 1em; }
@@ -37,10 +37,10 @@ p, li {
   line-height: 1.5em; }
 
 a:link {
-  color: #1F8EC2; }
+  color: #138BC2; }
 
 a:visited {
-  color: #A41FC2; }
+  color: #138BC2; }
 
 /* コンテンツ部分 */
 #wrapper {
@@ -62,7 +62,7 @@ a:visited {
   font-size: 0.8em; }
 
 #content {
-  background-color: #e2f4ba;
+  background-color: #FFFFFF;
   border-radius: 1em; }
 
 #content article {
@@ -75,8 +75,8 @@ a:visited {
 .entry-title {
   margin-bottom: 0.5em;
   padding: 0.2em 0;
-  border-left: solid 1.4em #A41FC2;
-  border-bottom: solid 1px #A41FC2;
+  border-left: solid 1.4em #C2138B;
+  border-bottom: solid 1px #C2138B;
   text-indent: 0.5em;
   font-size: 1.5em; }
 
@@ -93,14 +93,14 @@ a:visited {
 
 /* ここからsidebar */
 #sidebar {
-  background-color: #e2f4ba; }
+  background-color: #FFFFFF; }
 
 #sidebar div ul li.widget-container {
   margin-top: 1.5em; }
   #sidebar div ul li.widget-container form {
     margin: 0 0.5em; }
   #sidebar div ul li.widget-container h3 {
-    border-bottom: dashed 1px #A41FC2;
+    border-bottom: dashed 1px #C2138B;
     text-indent: 0.5em; }
   #sidebar div ul li.widget-container ul {
     padding: 0 0 0 1em; }

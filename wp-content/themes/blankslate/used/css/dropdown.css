@@ -21,7 +21,7 @@
 
 .page section ul.dropmenu li a {
   display: block;
-  background: #8FC31F;
+  background: #8BC213;
   color: #fff;
   font-size: 1em;
   padding: 0.5em 0;
@@ -39,14 +39,14 @@
 .page section ul.dropmenu li ul li a {
   padding: 0.5em 0;
   border-top: 1px solid black;
-  background: #6f9718;
+  background: #6a940e;
   text-align: center; }
 
 .page section ul.dropmenu li:hover > a {
-  background: #7fad1c; }
+  background: #7aab11; }
 
 .page section ul.dropmenu li a:hover {
-  background: #7fad1c; }
+  background: #7aab11; }
 
 /*アニメーションなし*/
 #normal li ul {

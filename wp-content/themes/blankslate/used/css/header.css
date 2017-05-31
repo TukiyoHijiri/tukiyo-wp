@@ -1,18 +1,30 @@
 #header {
   width: 100%; }
 
-#site-title {
+section#branding {
+  height: 407px;
+  background-image: url("../../used/img/frog-x1024.png"); }
+
+#site-title h1 {
   font-size: 3em;
-  text-shadow: 1px 1px 5px #000;
-  margin: 0.5em 0px; }
-  #site-title a {
+  margin: 0px;
+  padding: 1em 0 0 1em; }
+  #site-title h1 a {
     text-decoration: none;
-    color: #333; }
+    color: #fff;
+    font-weight: bold; }
+
+#site-title h1:first-letter {
+  color: #8BC213;
+  font-size: 1.5em; }
+
+#site-description {
+  display: none; }
 
 nav#menu {
-  position: fixed;
-  top: 0px;
-  left: 0px; }
+  background: #000; }
+  nav#menu a {
+    color: #ffffff; }
 
 #menu-menu-1 {
   display: flex; }
@@ -22,7 +34,7 @@ nav#menu {
   padding: 0 1em;
   border-style: solid;
   border-width: 0 1px 0 0;
-  border-color: #000000; }
+  border-color: #fff; }
 
 #menu-menu-1 li:nth-child(1) {
   border-width: 0 1px; }
