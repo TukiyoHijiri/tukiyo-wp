@@ -1,7 +1,7 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
-var scss_src = './wp-content/themes/blankslate/used/scss/**/*.scss';
-var css_src = './wp-content/themes/blankslate/used/css/';
+var scss_src = './wp-content/themes/blankslate-child/used/scss/**/*.scss';
+var css_src = './wp-content/themes/blankslate-child/used/css/';
  
 // Sassコンパイルタスク
 gulp.task('sass', function(){

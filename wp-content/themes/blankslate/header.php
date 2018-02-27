@@ -3,19 +3,8 @@
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <meta name="viewport" content="width=device-width" />
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-
-<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" />
-
 <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>" />
-<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/used/css/header.css" />
-<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/used/css/footer.css" />
-<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/used/css/cont.css" />
-
 <?php wp_head(); ?>
-<?php get_template_part('headinsert'); ?>
-
 </head>
 <body <?php body_class(); ?>>
 <div id="wrapper" class="hfeed">
@@ -25,8 +14,10 @@
 <div id="site-description"><?php bloginfo( 'description' ); ?></div>
 </section>
 <nav id="menu" role="navigation">
+<div id="search">
+<?php get_search_form(); ?>
+</div>
 <?php wp_nav_menu( array( 'theme_location' => 'main-menu' ) ); ?>
 </nav>
-
 </header>
 <div id="container">

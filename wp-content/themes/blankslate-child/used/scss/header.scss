@@ -1,0 +1,55 @@
+@import "_color.scss";
+
+/* 1024px以上用*/
+@media screen and (min-width: 1024px) {
+    section#branding{
+        height: 407px;
+        background-image: url("../img/frog-x1024.png");
+    }
+    #site-title{padding: 1em 0 0 1em;}
+}
+
+/* 1024px以下用*/
+@media screen and (max-width: 1024px) {
+    section#branding{background: #000;}
+    #site-title{padding: 0.2em;}
+}
+
+#header{
+    width: 100%;
+}
+#site-title{
+    font-size: 3em;
+//    text-shadow: 1px 1px 5px #000;
+    margin: 0px;
+//    padding: 1em 0 0 1em;
+    a{
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+    }
+}
+#site-title:first-letter{
+    color: $frog-green;
+    font-size: 1.5em;
+}
+#site-description{
+    display: none;
+}
+nav#menu{
+    background: #000;
+    a{
+        color: #ffffff;
+    }
+}
+#menu-menu-1{
+    display: flex;
+//    justify-content: center;
+}
+#menu-menu-1 li{
+    margin: 0px;
+    padding: 0 0.5em;
+    border-style: solid;
+    border-width: 0 1px 0 0;
+    border-color: $nav-border;
+}
