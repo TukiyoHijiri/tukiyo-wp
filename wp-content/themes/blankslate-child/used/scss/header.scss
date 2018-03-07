@@ -41,15 +41,15 @@ nav#menu{
     a{
         color: #ffffff;
     }
-}
-#menu-menu-1{
-    display: flex;
-//    justify-content: center;
-}
-#menu-menu-1 li{
-    margin: 0px;
-    padding: 0 0.5em;
-    border-style: solid;
-    border-width: 0 1px 0 0;
-    border-color: $nav-border;
+    ul{
+        display: flex;
+    //    justify-content: center;
+    }
+    ul li{
+        margin: 0px;
+        padding: 0 0.5em;
+        border-style: solid;
+        border-width: 0 1px 0 0;
+        border-color: $nav-border;
+    }
 }
